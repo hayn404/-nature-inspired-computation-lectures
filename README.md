@@ -34,7 +34,7 @@ You do **not** need to install Slidev globally — it's listed as a project depe
 ## 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/nature-inspired-computation-lectures.git
+git clone https://github.com/hayn404/-nature-inspired-computation-lectures.git
 cd nature-inspired-computation-lectures
 ```
 
