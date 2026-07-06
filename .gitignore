@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.pdf
+*.pptx
+*.png
+!**/assets/*.png
+.DS_Store
+.vscode/
+*.log
+.slidev/

@@ -1,0 +1,17 @@
+{
+  "name": "nature-inspired-computation-lectures",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Slidev lecture decks for Nature Inspired Computation (DSAI 403)",
+  "scripts": {
+    "lecture-01": "slidev lecture-01-introduction/slides.md --open",
+    "build:lecture-01": "slidev build lecture-01-introduction/slides.md --out lecture-01-introduction/dist --base /lecture-01-introduction/",
+    "export:lecture-01": "slidev export lecture-01-introduction/slides.md --output lecture-01-introduction/lecture-01-introduction.pdf",
+    "export:lecture-01:pptx": "slidev export lecture-01-introduction/slides.md --format pptx --output lecture-01-introduction/lecture-01-introduction.pptx"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^52.0.0",
+    "@slidev/theme-seriph": "^0.25.0",
+    "playwright-chromium": "^1.45.0"
+  }
+}
